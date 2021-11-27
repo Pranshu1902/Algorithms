@@ -1,0 +1,6 @@
+Kruskal's algorithm finds a minimum spanning forest of an undirected edge-weighted graph.
+Minimum spanning tree gives the edges to be chosen to connect all the nodes with least and cost and without creating a cycle.
+
+First we sort the graph based on the weights and then iterate through it. If adding the new node creates a cycle then we ignore it else we add it.
+
+Time Complexity - O(E*logV)
