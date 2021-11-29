@@ -1,0 +1,18 @@
+Here are the problem statements of 3 problems that can be solved using greedy algorithms.
+
+Huffman Code:
+
+It is the popular lossless compression algorithm. It is very frequently used to compress and decompress files. Here we first get all the characters used in the file along with their frequency. Then we create a tree and give a small and unique binary code to each character. This can reduce the size of the file by 20% to 90%, depening on characteristics of the file.
+
+
+Activity Selection:
+
+Given a number of activities with their start and end time, find the maximum number of activities that can be performed without overlapping. Here we just sort the activities based on their end time and then iterate through it and keep adding the ones that are poosible(greedy approach).
+
+
+Change Making:
+
+Given a total amount and the type of coins available, find the number of ways in which the total amount can be achieved.
+
+
+The code gives the python implementation of the greedy algorithms to solve these problem.
