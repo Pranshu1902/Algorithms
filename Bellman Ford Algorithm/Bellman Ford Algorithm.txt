@@ -1,0 +1,6 @@
+Bellman-Ford Algorithm is computes the shortest paths from a single source vertex to all of the other vertices in a
+weighted digraph.
+
+Even though it is slower than Dijkstra's Algorithm, it works in the cases when the weight of the
+edge is negative and it also finds negative weight cycle in the graph. The problem with Dijkstra's Algorithm is, if
+there's a negative cycle, you keep going through the cycle again and again creating an infinite loop.
